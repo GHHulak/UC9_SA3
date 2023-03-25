@@ -1,0 +1,30 @@
+.jogos{
+    background-color: rgb(255, 255, 255);
+    border: #000000;
+    height: 140px;
+    border: 1px solid #000000;;
+    position: relative;
+    top: 500px;
+}
+.linha{
+    margin-top: 10px;
+}
+.posicionamento-jogos{
+    height: 100%;
+    margin: 20px;
+    position: relative;
+    left: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .posicionamento-jogos img{
+        position: relative;
+        height: 70px;
+        width: 70px;
+        right: 70px;
+    }
+
+    .Linha img{
+        width: 1px;
+    }
+}

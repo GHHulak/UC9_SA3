@@ -1,0 +1,96 @@
+.banner-jogos{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    display: block;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+
+.cards{
+    border: 2px solid #000000;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.CardsD{
+    border: 2px solid #000000;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+
+}
+
+.card{
+    background-color: #e2e2e2;
+    border: 2px solid black;
+    justify-content: space-between;
+    justify-items: auto;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+}
+
+.cardsb{
+    padding: 20px;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    display: none;
+}
+
+.jogosc{
+    border: 1px solid #000000;
+    position: relative;
+    top: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        display: none;
+    }
+
+    .carda{
+        display: flex;
+        border: 1px solid #000000;
+        position: relative;
+        left: 70px;
+        background-color: #e2e2e2;
+        justify-items: auto;
+    }
+
+    .card-image-top{
+        border: 2px solid #000000;
+    }
+
+    .DC{
+        position: relative;
+        top: 70px;
+    }
+
+    .cardb{
+        border: 2px solid #000000;
+        background-color: #e2e2e2;
+        position: relative;
+        left: 50px;
+    }
+
+    .cardsb{
+        display: flex;
+    }
+    .cards{
+        border: none;
+    }
+    
+    .CardsD{
+        border: none;
+    }
+
+    .jogosc{
+        border: none;
+    }
+}

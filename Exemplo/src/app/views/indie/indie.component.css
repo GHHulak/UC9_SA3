@@ -1,0 +1,100 @@
+.indie h1{
+    position: relative;
+width: 638px;
+height: 263px;
+left: 71px;
+top: 600px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.fundo{
+    position: relative;
+width: 462.43px;
+height: 55.92px;
+left: 147.6px;
+top: 600px;
+}
+
+.indie h2{
+    position: relative;
+width: 326px;
+height: 39px;
+left: 227px;
+top: 560px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.indieimg{
+    position: relative;
+width: 541.18px;
+height: 408px;
+left: 710px;
+top: 150px;
+}
+
+.indie h3{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .fundo{
+        position: relative;
+    width: 400px;
+    height: 50px;
+    left: 20px;
+    top: 750px;
+    }
+    
+    .indie h2{
+        position: relative;
+    width: 326px;
+    height: 39px;
+    left: 70px;
+    top: 710px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+
+    }
+    
+    .indieimg{
+        position: relative;
+    width: 420px;
+    height: 304px;
+    left: 10px;
+    top: 80px;
+    }
+
+    .indie h3{
+        display: inline;
+        position: relative;
+        top: 750px;
+        font-size: 20px;
+        word-break: normal;
+        font-style: bold;
+        font-weight: 10px;
+    }
+
+    .indie h1{
+        display: none;
+    }
+}
